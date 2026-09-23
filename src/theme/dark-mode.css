@@ -1,0 +1,198 @@
+[data-theme="dark"] body,
+[data-theme="dark"] .layout,
+[data-theme="dark"] .layout-main {
+  background: #121212;
+  color: #f4eee7;
+}
+
+[data-theme="dark"] .layout-main {
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] .footer,
+[data-theme="dark"] .header {
+  background: #090909;
+}
+
+[data-theme="dark"] .menu-page,
+[data-theme="dark"] .history-page,
+[data-theme="dark"] .favorites-page,
+[data-theme="dark"] .cart-page,
+[data-theme="dark"] .checkout-page,
+[data-theme="dark"] .confirmation-page,
+[data-theme="dark"] .dish-detail-state {
+  color: #f4eee7;
+}
+
+[data-theme="dark"] .menu-header,
+[data-theme="dark"] .history-title,
+[data-theme="dark"] .cart-title,
+[data-theme="dark"] .checkout-title,
+[data-theme="dark"] .dish-detail h1,
+[data-theme="dark"] .history-header,
+[data-theme="dark"] .cart-header,
+[data-theme="dark"] .form-title,
+[data-theme="dark"] .confirmation-title {
+  color: #fff8ee;
+}
+
+[data-theme="dark"] .menu-subtitle,
+[data-theme="dark"] .history-subtitle,
+[data-theme="dark"] .cart-subtitle,
+[data-theme="dark"] .dish-card-description,
+[data-theme="dark"] .dish-detail-description,
+[data-theme="dark"] .summary-label,
+[data-theme="dark"] .info-label,
+[data-theme="dark"] .confirmation-note,
+[data-theme="dark"] .empty-message {
+  color: #b8aaa0;
+}
+
+[data-theme="dark"] .dish-card,
+[data-theme="dark"] .dish-detail,
+[data-theme="dark"] .order-item-card,
+[data-theme="dark"] .cart-item,
+[data-theme="dark"] .checkout-form,
+[data-theme="dark"] .order-summary,
+[data-theme="dark"] .confirmation-container,
+[data-theme="dark"] .empty-state,
+[data-theme="dark"] .favorites-empty {
+  background: #211d1a;
+  border-color: #40372f;
+  color: #f4eee7;
+}
+
+[data-theme="dark"] .dish-card:hover,
+[data-theme="dark"] .order-item-card:hover {
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.4);
+}
+
+[data-theme="dark"] .menu-search,
+[data-theme="dark"] .search-input,
+[data-theme="dark"] .checkout-form input,
+[data-theme="dark"] .checkout-form select,
+[data-theme="dark"] .checkout-form textarea,
+[data-theme="dark"] .field-input,
+[data-theme="dark"] .manager-search input {
+  background: #171513;
+  border-color: #51473e;
+  color: #fff8ee;
+}
+
+[data-theme="dark"] .menu-categories button,
+[data-theme="dark"] .category-chip,
+[data-theme="dark"] .toggle-details-btn,
+[data-theme="dark"] .clear-btn,
+[data-theme="dark"] .clear-cart-btn,
+[data-theme="dark"] .filter-tab,
+[data-theme="dark"] .close-btn {
+  background: #2b2520;
+  border-color: #51473e;
+  color: #f0d5b0;
+}
+
+[data-theme="dark"] .menu-categories button.active,
+[data-theme="dark"] .category-chip.active,
+[data-theme="dark"] .filter-tab.active {
+  background: #2d7d46;
+  border-color: #4caf50;
+  color: #ffffff;
+}
+
+[data-theme="dark"] .order-items-list,
+[data-theme="dark"] .cart-item,
+[data-theme="dark"] .summary-items,
+[data-theme="dark"] .info-section {
+  border-color: #40372f;
+}
+
+[data-theme="dark"] .empty-btn,
+[data-theme="dark"] .about-cta-link,
+[data-theme="dark"] .hero-btn.primary {
+  color: #17120d;
+}
+
+[data-theme="dark"] .about-page {
+  background: #121212;
+}
+
+[data-theme="dark"] .about-card {
+  background: #211d1a;
+  border-color: #40372f;
+}
+
+[data-theme="dark"] .about-card-content h1,
+[data-theme="dark"] .about-description {
+  color: #fff8ee;
+}
+
+[data-theme="dark"] .about-description {
+  color: #c2b4a9;
+}
+
+[data-theme="dark"] .admin-layout,
+[data-theme="dark"] .admin-main,
+[data-theme="dark"] .admin-dashboard,
+[data-theme="dark"] .order-manager,
+[data-theme="dark"] .dish-manager {
+  background: #121212;
+  color: #f4eee7;
+}
+
+[data-theme="dark"] .dashboard-card,
+[data-theme="dark"] .stat-card,
+[data-theme="dark"] .orders-table-container,
+[data-theme="dark"] .dishes-table-container,
+[data-theme="dark"] .modal-form,
+[data-theme="dark"] .modal-detail {
+  background: #211d1a;
+  border-color: #40372f;
+  color: #f4eee7;
+}
+
+[data-theme="dark"] .dashboard-card h2,
+[data-theme="dark"] .dashboard-header h1,
+[data-theme="dark"] .manager-header h1,
+[data-theme="dark"] .dishes-table th,
+[data-theme="dark"] .orders-table th,
+[data-theme="dark"] .dishes-table td,
+[data-theme="dark"] .orders-table td {
+  color: #fff8ee;
+}
+
+[data-theme="dark"] .dishes-table thead,
+[data-theme="dark"] .orders-table thead,
+[data-theme="dark"] .dishes-table tr,
+[data-theme="dark"] .orders-table tr {
+  border-color: #40372f;
+}
+
+[data-theme="dark"] .dishes-table input,
+[data-theme="dark"] .modal-form input,
+[data-theme="dark"] .modal-form textarea,
+[data-theme="dark"] .modal-form select {
+  background: #171513;
+  border-color: #51473e;
+  color: #fff8ee;
+}
+
+[data-theme="dark"] .admin-login-container {
+  background: #211d1a;
+  color: #f4eee7;
+}
+
+[data-theme="dark"] .admin-login-container input {
+  background: #171513;
+  border-color: #51473e;
+  color: #fff8ee;
+}
+
+[data-theme="dark"] .home-page {
+  box-shadow: 0 0 0 1px #40372f;
+}
+
+@media (max-width: 720px) {
+  [data-theme="dark"] .header-nav {
+    background: #090909;
+  }
+}

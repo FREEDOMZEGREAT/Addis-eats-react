@@ -1,0 +1,90 @@
+/* src/favorites/FavoriteButton.css */
+
+.favorite-btn {
+  background: rgba(255, 255, 255, 0.95);
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 0;
+  gap: 6px;
+}
+
+.favorite-btn:hover {
+  transform: scale(1.1);
+  background: white;
+}
+
+.favorite-btn:active {
+  transform: scale(0.95);
+}
+
+.favorite-btn.active {
+  background: #fff5f5;
+}
+
+.heart-icon {
+  font-size: 1rem;
+  line-height: 1;
+  transition: transform 0.2s ease;
+}
+
+.favorite-btn.active .heart-icon {
+  animation: heartPop 0.3s ease;
+}
+
+@keyframes heartPop {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.3); }
+  100% { transform: scale(1); }
+}
+
+/* Sizes */
+.favorite-btn.size-small {
+  width: 32px;
+  height: 32px;
+}
+
+.favorite-btn.size-small .heart-icon {
+  font-size: 0.9rem;
+}
+
+.favorite-btn.size-medium {
+  width: 40px;
+  height: 40px;
+}
+
+.favorite-btn.size-medium .heart-icon {
+  font-size: 1.1rem;
+}
+
+.favorite-btn.size-large {
+  width: 48px;
+  height: 48px;
+}
+
+.favorite-btn.size-large .heart-icon {
+  font-size: 1.4rem;
+}
+
+/* With label */
+.favorite-btn[class*="with-label"] {
+  width: auto;
+  border-radius: 24px;
+  padding: 8px 16px;
+}
+
+.favorite-label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #2d1810;
+}
+
+.favorite-btn.active .favorite-label {
+  color: #e74c3c;
+}

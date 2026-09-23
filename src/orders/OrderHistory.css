@@ -1,0 +1,89 @@
+/* src/orders/OrderHistory.css */
+
+.history-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.history-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+
+.history-title {
+  font-size: 2rem;
+  color: #2d1810;
+  margin-bottom: 4px;
+}
+
+.history-subtitle {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.clear-btn {
+  background: none;
+  border: none;
+  color: #e74c3c;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: background 0.2s ease;
+  font-family: inherit;
+}
+
+.clear-btn:hover {
+  background: #fff5f5;
+}
+
+.orders-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Empty state */
+.empty-state {
+  text-align: center;
+  padding: 80px 20px;
+  background: white;
+  border-radius: 16px;
+  border: 2px dashed #e0d6cc;
+  max-width: 500px;
+  margin: 40px auto;
+}
+
+.empty-icon {
+  font-size: 4rem;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.empty-title {
+  font-size: 1.5rem;
+  color: #2d1810;
+  margin-bottom: 8px;
+}
+
+.empty-message {
+  color: #666;
+  margin-bottom: 24px;
+}
+
+.empty-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #2d7d46;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.empty-btn:hover {
+  background: #1f5c32;
+}

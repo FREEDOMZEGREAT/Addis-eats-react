@@ -1,0 +1,71 @@
+@import "./theme/dark-mode.css";
+
+:root {
+  --bg-primary: #faf6f0;
+  --bg-secondary: #ffffff;
+  --bg-tertiary: #f5ede5;
+
+  --text-primary: #2d1810;
+  --text-secondary: #666666;
+  --text-muted: #999999;
+
+  --border-color: #e0d6cc;
+  --border-light: #f0ebe5;
+
+  --primary: #2d7d46;
+  --primary-dark: #1f5c32;
+  --primary-light: #e8f5e9;
+
+  --danger: #e74c3c;
+  --warning: #f39c12;
+  --success: #27ae60;
+
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.12);
+
+  --header-bg: linear-gradient(135deg, #2d1810 0%, #4a2518 100%);
+  --header-text: #f0d5b0;
+}
+
+[data-theme="dark"] {
+  --bg-primary: #1a1a1a;
+  --bg-secondary: #2a2a2a;
+  --bg-tertiary: #333333;
+
+  --text-primary: #f5f5f5;
+  --text-secondary: #b0b0b0;
+  --text-muted: #808080;
+
+  --border-color: #3a3a3a;
+  --border-light: #2f2f2f;
+
+  --primary: #4caf50;
+  --primary-dark: #388e3c;
+  --primary-light: #1b3a1e;
+
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.5);
+
+  --header-bg: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+  --header-text: #f0d5b0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  min-height: 100vh;
+  line-height: 1.6;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}

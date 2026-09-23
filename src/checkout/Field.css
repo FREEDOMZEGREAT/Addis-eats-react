@@ -1,0 +1,74 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 16px;
+}
+
+.field-label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #2d1810;
+}
+
+.field-required {
+  color: #e74c3c;
+  margin-left: 4px;
+}
+
+.field-input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 2px solid #e0d6cc;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+  color: #2d1810;
+  background: white;
+  transition: all 0.2s ease;
+}
+
+.field-input:focus {
+  outline: none;
+  border-color: #2d7d46;
+  box-shadow: 0 0 0 3px rgba(45, 125, 70, 0.1);
+}
+
+.field-input:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  background: #f5f5f5;
+}
+
+.field-input.error {
+  border-color: #e74c3c;
+}
+
+.field-input.error:focus {
+  box-shadow: 0 0 0 3px rgba(231, 76, 60, 0.1);
+}
+
+.field-error {
+  color: #e74c3c;
+  font-size: 0.85rem;
+  margin: 0;
+  font-weight: 500;
+}
+
+.field-hint {
+  color: #999;
+  font-size: 0.8rem;
+  text-align: right;
+}
+textarea.field-input {
+  resize: vertical;
+  min-height: 80px;
+}
+select.field-input {
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23666' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  padding-right: 40px;
+}

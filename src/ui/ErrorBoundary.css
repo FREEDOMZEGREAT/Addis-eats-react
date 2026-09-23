@@ -1,0 +1,39 @@
+.error-boundary {
+  text-align: center;
+  padding: 60px 20px;
+  background: #fff5f5;
+  border-radius: 12px;
+  border: 2px solid #fed7d7;
+  margin: 20px;
+}
+
+.error-boundary .error-icon {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.error-boundary h2 {
+  color: #c0392b;
+  margin-bottom: 8px;
+}
+
+.error-boundary p {
+  color: #666;
+  margin-bottom: 16px;
+}
+
+.error-boundary button {
+  padding: 10px 24px;
+  background: #2d7d46;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.error-boundary button:hover {
+  background: #1f5c32;
+}

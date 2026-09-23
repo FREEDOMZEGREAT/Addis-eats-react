@@ -1,0 +1,125 @@
+.dish-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  height: 100%;
+}
+
+.dish-card {
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  border: 1px solid #eee;
+  transition: all 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.dish-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.dish-card-image {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  background: #f5ede5;
+}
+.dish-card-favorite {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 2;
+}
+
+.dish-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.dish-card-image-link {
+  display: block;
+  text-decoration: none;
+}
+
+.dish-card-name-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.dish-card-name-link:hover .dish-card-name {
+  color: #2d7d46;
+}
+
+.dish-card:hover .dish-card-image img {
+  transform: scale(1.05);
+}
+
+.spicy-badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: rgba(231, 76, 60, 0.9);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  backdrop-filter: blur(4px);
+}
+
+.dish-card-content {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.dish-card-name {
+  font-size: 1.1rem;
+  color: #2d1810;
+  margin: 0 0 8px 0;
+  font-weight: 600;
+}
+
+.dish-card-description {
+  color: #666;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  margin: 0 0 12px 0;
+  flex: 1;
+}
+
+.dish-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+.dish-card-actions {
+  margin-top: 12px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.dish-card-price {
+  font-size: 1.25rem;
+  color: #2d7d46;
+  font-weight: 700;
+}
+
+.dish-card-category {
+  background: #f5ede5;
+  color: #4a2518;
+  padding: 2px 10px;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
